@@ -12,7 +12,6 @@ int main()
 
     while(!st.empty())
     {
-
         std::cout << st.top() << " ";
         st.pop();
     }
