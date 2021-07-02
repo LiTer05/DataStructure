@@ -53,7 +53,8 @@ bool LStack<T>::empty() const
 template <class T>
 void LStack<T>::clear()
 {
-    while(!empty()){
+    while (!empty())
+    {
         pop();
     }
 }
